@@ -89,7 +89,7 @@ Tutorials (plan: Admin Dashboard):
     - add profilePhoto to BasicSiteProps
     - fetch profile on app.tsx
     - fetch profile photos in post cards
-8. Roles (including site defaults and whole main.ts)
-9. Logging (including admin page)
+8. Roles And Logging (including site defaults and whole main.ts + including admin page) [end off copy/paste of end result code]
+    - install meteor/alanning:roles
 10. Deploying To Meteor Galaxy
 11. Deploying to AWS
