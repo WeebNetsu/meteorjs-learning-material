@@ -75,3 +75,21 @@ Tutorials (plan: Admin Dashboard):
     - Add post delete method in imports/api/post/methods/set.ts
     - Install lodash meteor npm i lodash @types/lodash
     - Update PostCard/index.tsx
+7. User Profile
+    - create imports/ui/UserProfilePage/index.tsx
+    - Add new page to routes
+    - Create imports/utils/index.ts
+    - Create /server/utils/s3
+    - Install @aws-sdk/client-s3 and @aws-sdk/s3-request-presigner
+    - Create imports/api/aws
+    - Update imports/api/userProfile/methods/set.ts
+    - Add settings.json
+    - Update package.json run command to meteor --settings settings.json
+    - Update gitignore to include settings.json
+    - add profilePhoto to BasicSiteProps
+    - fetch profile on app.tsx
+    - fetch profile photos in post cards
+8. Roles (including site defaults and whole main.ts)
+9. Logging (including admin page)
+10. Deploying To Meteor Galaxy
+11. Deploying to AWS
