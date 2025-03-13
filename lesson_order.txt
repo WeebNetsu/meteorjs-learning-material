@@ -62,3 +62,11 @@ Tutorials (plan: Admin Dashboard):
     - create imports/utils/constants/index.ts
     - implement set.post.create in imports/api/post/methods/set.ts
     - create server/utils/meteor.ts
+5. Styling
+    - Add logo in public folder
+    - update main.css styling
+    - Add userProfile to BasicSiteProps
+    - Create RouteRenderer
+    - Enable dark mode on ant design
+    - implement fetchUserProfile in app.tsx
+    - remove basic logout button
