@@ -70,3 +70,8 @@ Tutorials (plan: Admin Dashboard):
     - Enable dark mode on ant design
     - implement fetchUserProfile in app.tsx
     - remove basic logout button
+6. Post Management
+    - Create post like collection
+    - Add post delete method in imports/api/post/methods/set.ts
+    - Install lodash meteor npm i lodash @types/lodash
+    - Update PostCard/index.tsx
