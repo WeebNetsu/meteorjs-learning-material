@@ -1,9 +1,10 @@
+import { Typography } from "antd";
 import React from "react";
 
 const HomePage: React.FC = () => {
 	return (
 		<>
-			<h1>Hello World</h1>
+			<Typography.Title level={2}>Hello World</Typography.Title>
 		</>
 	);
 };

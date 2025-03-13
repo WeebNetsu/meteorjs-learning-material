@@ -19,6 +19,7 @@ Tutorials (plan: Admin Dashboard):
 	- meteor create --typescript project name
 	- Show all the folders and files in the generated project
 	- Delete tests folder
+    - Delete test folder link from package.json
 3. Add proper typescript support and implement router (https://github.com/WeebNetsu/meteor-typescript-template)
 	- cp -R ../meteor-typescript-template/typings/ .
 	- cp -R ../meteor-typescript-template/imports/types ./imports/
@@ -32,7 +33,6 @@ Tutorials (plan: Admin Dashboard):
 	- Create NotFoundPage folder and file
 	- Create LoginPage folder and file (no styling needed yet)
 	- Install wouter meteor npm i wouter (react router has issues in meteor)
-	- Install js utils meteor npm i @netsu/js-utils
 	- Add accounts-password package (to see if user is logged in and later to help them log in)
 	- Create routes.tsx file and add routes (order matters)
 	- Add routes to App.tsx (note that we do not use route renderer yet)
