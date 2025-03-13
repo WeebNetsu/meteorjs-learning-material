@@ -36,3 +36,19 @@ Tutorials (plan: Admin Dashboard):
 	- Add accounts-password package (to see if user is logged in and later to help them log in)
 	- Create routes.tsx file and add routes (order matters)
 	- Add routes to App.tsx (note that we do not use route renderer yet)
+4.
+    - Add account/password support meteor add accounts-password
+    - Create import/api/users folder and files
+    - Create import/api/usersProfile folder and files
+    - COPY (and explain) needed code from import/api/utils folder to here
+    - create imports/startup folder and files
+    - import startup code in server main.ts
+    - install @netsu/js-utils
+    - create imports/utils/errors.ts and all code inside
+    - design and implement signup page imports/ui/SignupPage/index.tsx
+    - Add Signup page to routes
+    - design and implement login page imports/ui/LoginPage/index.tsx
+    - implement set.user.create in imports/api/users/methods/set.ts
+    - implement stringContainsOnlyLettersAndNumbers in imports/utils/checks.ts
+    - implement entire imports/utils/serverErrors.ts file
+    - Add simple logout button to app.tsx
